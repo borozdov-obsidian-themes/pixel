@@ -1,0 +1,17 @@
+{
+  "name": "borozdov-pixel",
+  "private": true,
+  "description": "A violet pixel-grid on drafting paper: slate ink, hairline cards, one violet accent and mono data readouts stamped in small tracked capitals.",
+  "license": "MIT",
+  "scripts": {
+    "fonts": "python3 scripts/embed-fonts.py",
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
